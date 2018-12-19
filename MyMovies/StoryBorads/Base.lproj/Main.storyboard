@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.15" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ar0-f6-YCv">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.9"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--MainVC-->
+        <scene sceneID="mYZ-TI-0c9">
+            <objects>
+                <tabBarController id="ar0-f6-YCv" customClass="MainVC" customModule="MyMovies" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="HjG-iS-ntD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="1" green="0.83137254901960778" blue="0.47450980392156861" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="iUD-gS-37U" kind="relationship" relationship="viewControllers" id="nzd-aF-94Q"/>
+                        <segue destination="IkJ-uG-4rC" kind="relationship" relationship="viewControllers" id="aM3-PY-xZP"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Hu-jZ-yAT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1885" y="701"/>
+        </scene>
+        <!--NowPlayingSB-->
+        <scene sceneID="8yP-J1-RV6">
+            <objects>
+                <viewControllerPlaceholder storyboardName="NowPlayingSB" id="iUD-gS-37U" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="0YV-aY-ZId"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IVJ-YS-24N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2790" y="413"/>
+        </scene>
+        <!--TopRatedSB-->
+        <scene sceneID="skM-f6-fvr">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TopRatedSB" id="IkJ-uG-4rC" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="KgS-6l-SdA"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mTk-sR-Fm3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2802" y="988"/>
+        </scene>
+        <!--UIViewController-Wn3-Y2-IMc-->
+        <scene sceneID="N3j-jj-9MR">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="UIViewController-Wn3-Y2-IMc" storyboardName="NowPlayingShowSB" referencedIdentifier="UIViewController-Wn3-Y2-IMc" id="HGD-KF-JBg" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="21c-VS-5Lh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3470" y="413"/>
+        </scene>
+        <!--UIViewController-nTO-EK-409-->
+        <scene sceneID="8mp-gw-lqN">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="UIViewController-nTO-EK-409" storyboardName="TopRatedShowSB" referencedIdentifier="UIViewController-nTO-EK-409" id="biN-1s-NPT" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fiL-73-ul9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3470" y="988"/>
+        </scene>
+        <!--UIViewController-7zJ-ro-cCn-->
+        <scene sceneID="mNH-bZ-TBJ">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="UIViewController-7zJ-ro-cCn" storyboardName="MovieSB" referencedIdentifier="UIViewController-7zJ-ro-cCn" id="IMH-a8-Egy" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uSB-Rh-7pv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4234" y="700"/>
+        </scene>
+    </scenes>
+</document>
